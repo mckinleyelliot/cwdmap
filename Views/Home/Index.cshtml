@@ -1,0 +1,504 @@
+﻿@model List<Processor>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Illinois CWD Butchers</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+    <style>
+    * {
+        margin: 0px;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+        @* outline: 1px dotted pink; *@
+        }
+
+    #wrapper {
+        margin: 0px;
+        width: 100%;
+    }
+    body {
+        background-image: url(https://drive.google.com/uc?id=16NzF4qqJqZKpM5dn6D2NVlYaOiwnI7l8);
+        background-color: lightgray;
+        background-repeat: repeat;
+        background-size: 50%;
+    }
+    nav {
+        display: inline-block;
+        background-color: 	#3F434C;
+        width: 100%;
+        color: whitesmoke;
+        margin-bottom: 40px;
+        height: auto;
+        padding-right: 20px;
+    }
+    .NavLink {
+        background-color: #23252b;
+        margin-top: 17px;
+        margin-right: 4px;
+        margin-bottom: 15px;
+    }
+    #HeaderSub {
+        margin-top: -30px;
+        margin-left: 40px;
+        margin-bottom: 10px;
+        padding: 1px;
+        width: 50%;
+        height: auto;
+        background-color: #3F434C;
+    }
+    #map {
+        height: 700px;
+        margin-top: -6px;
+        margin-bottom: 40px;
+    }
+    html {
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    table {
+        text-align: left;
+        position: relative;
+        border-collapse: collapse;
+    }
+    td {
+        color: whitesmoke;
+        font-size: 85%;
+    }
+    tr:hover {
+        background-color: #23252b;
+    }
+    tr.Head th{
+        background: #23252b;
+        color: whitesmoke;
+    }
+    th {
+        font-size: 100%;
+        position: sticky;
+        top: 0;
+    }
+    #ProcessorList {
+        height: 730px;
+        width: 97%;
+        margin: auto;
+        margin-bottom: 40px;
+        overflow-y: scroll;
+        border: 3px solid #23252b;
+    }
+    #proclistp {
+        padding: 0 2%;
+    }
+    #ProcessorListTop {
+        background-color: 	#3F434C;
+        padding: 15px;
+        padding-left: 20px;
+        color: whitesmoke;
+    }
+    #ProcessorListBack {
+        background-color: 	#3F434C;
+        padding-bottom: 20px;
+        margin-bottom: 40px;
+    }
+    /* The CONTACT Modal */
+    .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        padding-top: 100px; /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    }
+    /* Modal Content */
+    .modal-content {
+        background-color: lightgrey;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 300px;
+    }
+    /* The Close Button */
+    .close {
+        color: black;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+        .close:hover,
+        .close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    #LinksDiv {
+        margin: 8% auto;
+        width: 65%;
+        color: whitesmoke;
+        background-color: #3F434C;
+        padding: 3%;
+    }
+    .InfoLinks {
+        color: lightgrey;
+        padding: 1.5%;
+        display: block;
+    }
+    .InfoLinks:hover {
+        background-color: #23252b;
+        cursor: pointer;
+    }
+    .InfoLinks:visited {
+        color: lightgray;
+    }
+    .grid-item5 {
+        grid-column-start: 1;
+        grid-column-end: 8;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .grid-item1 { 
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 6;
+        display: flex;
+        align-items: center;
+        background-color: #3F434C;
+    }
+    .grid-item2 {
+        grid-column-start: 4;
+        grid-column-end: 8;
+        grid-row-start: 2;
+        grid-row-end: 6;
+        }
+    .grid-item3 {
+        grid-column: 1 / 5;
+        grid-row-start: 6;
+        grid-row-end: 10
+    }
+    .grid-item4 {
+        grid-column-start: 5;
+        grid-column-end: 8;
+        grid-row-start: 6;
+        grid-row-end: 10;
+        padding: 10% 0;
+        background-color: #3F434C;
+    }
+    .CWDInfo {
+        width: 80%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(7, auto);
+        grid-template-rows: repeat(9, auto);
+        grid-gap: 15px;
+        color: whitesmoke;
+    }
+    #CWDInfohead {
+        text-align: center;
+        background-color: #3F434C;
+    }
+    #infop {
+        overflow: auto;
+        background-color: #3F434C;
+        padding: 5%;
+    }
+    #InfoImg1 {
+        width: 100%;
+        height: auto;
+    }
+    #InfoImg2 {
+        width: 100%;
+        height: auto;
+    }
+    #InfoImg1P {
+        background-color: #23252b;
+        padding: 2% 3% 2%;
+        width: 100%;
+        font-size: 10pt;
+    }
+    #InfoImg2P {
+        background-color: #23252b;
+        padding: 2% 3% 2%;
+        width: 100%;
+        font-size: 10pt;
+    }
+    #infol {
+        background-color: #3F434C;
+        padding: 5%;
+    }
+    footer {
+        height: auto;
+        background-color: 	#3F434C;
+        color: whitesmoke;
+        padding: 10px;
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    #footerdiv {
+    }
+    .FooterLink1 {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+        background-color: #23252b;
+        display: block;
+        width: 150px;
+    }
+    .FooterLink2 {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+        background-color: #23252b;
+        display: block;
+        width: 100px;
+    }
+    </style>
+</head>
+<body>
+<div id="wrapper">
+
+    <nav>
+        <div class="w3-bar">
+            <span id="Header" class="w3-bar-item  w3-padding-14 w3-xlarge">Illinois CWD Hunter Helper</span>
+            <a href="#" id="myBtn" class="w3-bar-item w3-button w3-right w3-hide-small w3-hide-medium w3-padding-16 NavLink">Contact</a>
+            <a href="#CWDInfo" class="w3-bar-item w3-button w3-right w3-hide-small w3-hide-medium w3-padding-16 NavLink">CWD Info</a>
+            <a href="#ProcessorListTop" class="w3-bar-item w3-button w3-right w3-hide-small w3-hide-medium w3-padding-16 NavLink">Processor List</a>
+            <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-padding-16 NavLink" onclick="myFunction()">&#9776;</a>
+        </div>
+        <div id="HeaderSub">An interactive map to help hunters find the nearest venison butcher that will test for CWD infection</div>
+        <div id="dropdown" class="w3-bar-block w3-hide w3-hide-large NavLink">
+            <a href="#" id="myBtnsml" class="w3-bar-item w3-button NavLink">Contact</a>
+            <a href="#CWDInfo" class="w3-bar-item w3-button NavLink">CWD Info</a>
+            <a href="#ProcessorListTop" class="w3-bar-item w3-button NavLink">Processor List</a>
+        </div>
+    </nav>
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <!-- Modal content -->
+    <div class="modal-content">
+        <div class="modal-div">
+            <span class="close">&otimes;</span>
+            <h6>This web app was created by:</h6>
+            <h2>Elliot McKinley</h2>
+            <p><i class="fa fa-map-marker fa-fw w3-text-white w3-margin-right"></i> Chicago, US</p>
+            <p><i class="fa fa-phone fa-fw w3-text-white w3-margin-right"></i> 773-562-4265</p>
+            <i class="fa fa-envelope fa-fw w3-text-white w3-margin-right"> </i><a href="mailto:mckinleyelliot@gmail.com">ElliotMcKinley@gmail.com</a><p> </p>
+            <i class="fa fa-linkedin-square fa-fw w3-text-white w3-margin-right"></i><a href="https://www.linkedin.com/in/elliot-mckinley">LinkedIn Profile</a>
+        </div>
+    </div>
+</div>
+
+
+
+    <div id="map"></div>
+
+
+<div id="ProcessorListTop">
+<h2>Processor List</h2>
+<h6 id="proclistp">Below is a list of wild game butchers in Illinois that can test your venison for CWD infection.</h6>
+</div>
+<div id="ProcessorListBack">
+    <div id="ProcessorList">
+        <table class="w3-table w3-hover">
+            <thead>
+                <tr class="Head">
+                <th>Processor</th>
+                <th>Address</th>
+                <th>City</th>
+                <th>County</th>
+                <th>Lat/Long</th>
+                <th>Info</th>
+                </tr>
+            </thead>
+                <div id="TableHead">
+                </div>
+            <tbody>
+                @foreach(var w in @Model)
+                {
+                    <tr>
+                        <td>@w.ProcessorName</td>
+                        <td>@w.ProcessorAddress</td>
+                        <td>@w.ProcessorCity, IL</td>
+                        <td>@w.ProcessorCounty County</td>
+                        <td>@w.LAT, @w.LNG</td>
+                        <td>@w.ProcessorHours</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+<div class="CWDInfo" id="CWDInfo">
+  <div class="grid-item5">
+        <div id="CWDInfohead">
+            <h1>CWD - Chronic Waste Disease</h1>
+        </div>
+  </div>
+
+  <div class="grid-item1">
+      <div id="infop">
+            <p>
+                Chronic Waste Disease (CWD) is a prion disease that affects cervids, including the whitetail deer of Northern Illinois and Southern Wisconsin. CWD is fatal to deer, and there are no cures or vaccines. 
+                <br>
+                <br>
+                CWD is a serious threat to the health and well being of wild and farmed deer populations. In addition to being devestating to deer herds, the long-term affect of CWD is unknown on humans.
+                <br>
+                <br>
+                The ILDNR and CDC recommends hunters have venison samples checked for CWD at any check-in station, or the participating meat processors listed above. The CDC recommends you do not consume venison infected with CWD.
+            </p>
+        </div>
+  </div>
+
+  <div class="grid-item2">
+        <img id="InfoImg1" alt="Deer with CWD" src="https://drive.google.com/uc?id=18X4FbfdE5IMjEJgOBIlR5QMquTesFmSr"></img>
+        <p id="InfoImg1P">A young whitetail showing late signs of CWD. Deer can be infected with CWD for years before it impacts their health.</p>
+  </div>
+
+  <div class="grid-item3">
+        <img id="InfoImg2" alt="Deer with CWD (2)" src="https://www.outdooralabama.com/sites/default/files/Hunting/CWD/19-CWD-Mike%20Hopper%2C%20Kansas%20Dept.%20of%20Wildlife%2C%20Parks%20and%20Tourism.JPG"></img>
+        <p id="InfoImg2P">A mature buck with CWD. There is no vaccine or treatment for the disease at this time.</p>
+  </div>
+
+  <div class="grid-item4">
+        <div id=infol>
+            <h6>To help reduce the spread of Chronic Waste Disease:</h6>
+            <ul>
+                <li>Test for CWD after your sucessful hunt!</li>
+                <li>Eliminate the use of salt-licks and other attractants, that give deer surfaces to spread bodily fluid.</li>
+                <li>Clean your boots after hiking in hunting areas.</li>
+                <li>Always dispose of the brain and spinal cord, as this is where CWD is concentrated in deer.</li>
+                <li>If your venison tests positive for CWD, dispose of it.</li>
+            </ul>
+        </div>
+  </div>
+
+</div>
+
+
+    <div id="LinksDiv">
+        <h3>Reference Links</h3>
+        <a class="InfoLinks" href="https://www.dnr.illinois.gov/programs/CWD/Pages/default.aspx">Illinois DNR CWD Management Program Information</a>
+        <a class="InfoLinks" href="https://blogs.illinois.edu/view/7447/555051">Illinois Prarie Research Institute blog arrticle on CWD</a>
+        <a class="InfoLinks" href="https://www.cdc.gov/prions/cwd/index.html">Center for Disease Control CWD Information</a>
+        <a class="InfoLinks" href="http://cwd-info.org/cwd-the-basics/">CWD-Info.org - News source covering CWD developments nationwide</a>
+    </div>
+
+
+
+<footer>
+    <div id="footerdiv">
+        <a href="#" class="w3-button w3-padding-large w3-margin-bottom FooterLink1"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a><br>
+    </div>
+</footer>
+
+<script> // Nav bar drop down for small screens
+function myFunction() {
+  var x = document.getElementById("dropdown");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+<script>
+        var locations = [ 
+        @foreach (var p in @Model){
+            <text>
+                {lat: @p.LAT, lng: @p.LNG, 
+                info: "@p.ProcessorName", 
+                address: "@p.ProcessorName<br> @p.ProcessorAddress<br> @p.ProcessorCity, IL <br> Hours: @p.ProcessorHours"},
+            </text>
+        }]
+</script>
+
+<script>
+        function myMap() {  
+        var map = new google.maps.Map(document.getElementById('map'), {
+        center: {lat: 41.100, lng: -89.496},
+        zoom: 8
+        });
+        infoWindow = new google.maps.InfoWindow;
+        if (navigator.geolocation) {
+          navigator.geolocation.getCurrentPosition(function(position) {
+            var pos = {
+              lat: position.coords.latitude,
+              lng: position.coords.longitude
+            };
+            infoWindow.setPosition(pos);
+            infoWindow.setContent('You are here!');
+            infoWindow.open(map);
+            map.setCenter(pos);
+          }, function() {
+            handleLocationError(true, infoWindow, map.getCenter());
+          });
+        } 
+        else { // If Browser doesn't support Geolocation
+          handleLocationError(false, infoWindow, map.getCenter());
+        }
+        var infowin = new google.maps.InfoWindow();
+        var markers = locations.map(function(location, i) {
+            var marker = new google.maps.Marker({
+                position: location,
+                label: location.info,
+            });
+            google.maps.event.addListener(marker, 'click', function(evt) {
+                infowin.setContent(location.address);
+                infowin.open(map, marker);
+                
+            })
+            return marker;
+        });
+
+        var markerCluster = new MarkerClusterer(map, markers,
+      {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
+        }
+</script>
+
+<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+
+<script async defer src=@ViewBag.ApiKey></script>
+
+<script> //Modal Scripts
+// Get the modal
+var modal = document.getElementById("myModal");
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+var btn2 = document.getElementById("myBtnsml");
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+btn2.onclick = function() {
+  modal.style.display = "block";
+}
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</div>
+</body>
+</html>

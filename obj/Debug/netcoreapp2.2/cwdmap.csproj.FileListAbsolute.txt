@@ -1,0 +1,62 @@
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/ChefsNDishes copy/bin/Debug/netcoreapp2.2/cwdmap.deps.json
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/ChefsNDishes copy/bin/Debug/netcoreapp2.2/cwdmap.runtimeconfig.json
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/ChefsNDishes copy/bin/Debug/netcoreapp2.2/cwdmap.runtimeconfig.dev.json
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/ChefsNDishes copy/bin/Debug/netcoreapp2.2/cwdmap.dll
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/ChefsNDishes copy/bin/Debug/netcoreapp2.2/cwdmap.pdb
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/ChefsNDishes copy/bin/Debug/netcoreapp2.2/cwdmap.Views.dll
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/ChefsNDishes copy/bin/Debug/netcoreapp2.2/cwdmap.Views.pdb
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/ChefsNDishes copy/obj/Debug/netcoreapp2.2/cwdmap.csprojAssemblyReference.cache
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/ChefsNDishes copy/obj/Debug/netcoreapp2.2/cwdmap.csproj.CoreCompileInputs.cache
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/ChefsNDishes copy/obj/Debug/netcoreapp2.2/cwdmap.RazorAssemblyInfo.cache
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/ChefsNDishes copy/obj/Debug/netcoreapp2.2/cwdmap.RazorAssemblyInfo.cs
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/ChefsNDishes copy/obj/Debug/netcoreapp2.2/cwdmap.AssemblyInfoInputs.cache
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/ChefsNDishes copy/obj/Debug/netcoreapp2.2/cwdmap.AssemblyInfo.cs
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/ChefsNDishes copy/obj/Debug/netcoreapp2.2/cwdmap.TagHelpers.input.cache
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/ChefsNDishes copy/obj/Debug/netcoreapp2.2/cwdmap.TagHelpers.output.cache
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/ChefsNDishes copy/obj/Debug/netcoreapp2.2/cwdmap.RazorCoreGenerate.cache
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/ChefsNDishes copy/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/ChefsNDishes copy/obj/Debug/netcoreapp2.2/Razor/Views/Home/Privacy.g.cshtml.cs
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/ChefsNDishes copy/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Error.g.cshtml.cs
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/ChefsNDishes copy/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/ChefsNDishes copy/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/ChefsNDishes copy/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/ChefsNDishes copy/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.g.cshtml.cs
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/ChefsNDishes copy/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.g.cshtml.cs
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/ChefsNDishes copy/obj/Debug/netcoreapp2.2/cwdmap.RazorTargetAssemblyInfo.cache
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/ChefsNDishes copy/obj/Debug/netcoreapp2.2/cwdmap.RazorTargetAssemblyInfo.cs
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/ChefsNDishes copy/obj/Debug/netcoreapp2.2/cwdmap.Views.pdb
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/ChefsNDishes copy/obj/Debug/netcoreapp2.2/cwdmap.dll
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/ChefsNDishes copy/obj/Debug/netcoreapp2.2/cwdmap.pdb
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/ChefsNDishes copy/obj/Debug/netcoreapp2.2/cwdmap.csproj.CopyComplete
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/ChefsNDishes copy/obj/Debug/netcoreapp2.2/Razor/Views/Home/New.g.cshtml.cs
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cefndish - cwdmap copy/bin/Debug/netcoreapp2.2/cwdmap.deps.json
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cefndish - cwdmap copy/bin/Debug/netcoreapp2.2/cwdmap.runtimeconfig.json
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cefndish - cwdmap copy/bin/Debug/netcoreapp2.2/cwdmap.runtimeconfig.dev.json
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cefndish - cwdmap copy/bin/Debug/netcoreapp2.2/cwdmap.dll
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cefndish - cwdmap copy/bin/Debug/netcoreapp2.2/cwdmap.pdb
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cefndish - cwdmap copy/bin/Debug/netcoreapp2.2/cwdmap.Views.dll
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cefndish - cwdmap copy/bin/Debug/netcoreapp2.2/cwdmap.Views.pdb
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cefndish - cwdmap copy/obj/Debug/netcoreapp2.2/cwdmap.csprojAssemblyReference.cache
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cefndish - cwdmap copy/obj/Debug/netcoreapp2.2/cwdmap.csproj.CoreCompileInputs.cache
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cefndish - cwdmap copy/obj/Debug/netcoreapp2.2/cwdmap.RazorAssemblyInfo.cache
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cefndish - cwdmap copy/obj/Debug/netcoreapp2.2/cwdmap.RazorAssemblyInfo.cs
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cefndish - cwdmap copy/obj/Debug/netcoreapp2.2/cwdmap.AssemblyInfoInputs.cache
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cefndish - cwdmap copy/obj/Debug/netcoreapp2.2/cwdmap.AssemblyInfo.cs
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cefndish - cwdmap copy/obj/Debug/netcoreapp2.2/cwdmap.TagHelpers.input.cache
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cefndish - cwdmap copy/obj/Debug/netcoreapp2.2/cwdmap.TagHelpers.output.cache
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cefndish - cwdmap copy/obj/Debug/netcoreapp2.2/cwdmap.RazorCoreGenerate.cache
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cefndish - cwdmap copy/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cefndish - cwdmap copy/obj/Debug/netcoreapp2.2/Razor/Views/Home/New.g.cshtml.cs
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cefndish - cwdmap copy/obj/Debug/netcoreapp2.2/Razor/Views/Home/Privacy.g.cshtml.cs
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cefndish - cwdmap copy/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Error.g.cshtml.cs
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cefndish - cwdmap copy/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cefndish - cwdmap copy/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cefndish - cwdmap copy/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cefndish - cwdmap copy/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.g.cshtml.cs
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cefndish - cwdmap copy/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.g.cshtml.cs
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cefndish - cwdmap copy/obj/Debug/netcoreapp2.2/cwdmap.RazorTargetAssemblyInfo.cache
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cefndish - cwdmap copy/obj/Debug/netcoreapp2.2/cwdmap.RazorTargetAssemblyInfo.cs
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cefndish - cwdmap copy/obj/Debug/netcoreapp2.2/cwdmap.Views.pdb
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cefndish - cwdmap copy/obj/Debug/netcoreapp2.2/cwdmap.dll
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cefndish - cwdmap copy/obj/Debug/netcoreapp2.2/cwdmap.pdb
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cefndish - cwdmap copy/obj/Debug/netcoreapp2.2/cwdmap.csproj.CopyComplete

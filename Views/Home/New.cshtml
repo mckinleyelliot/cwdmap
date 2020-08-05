@@ -1,0 +1,42 @@
+@model Processor
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<h1>Add Processor</h1>
+<div asp-validation-summary="All" class="text-danger"></div>
+
+<form method="post" asp-action="Create">
+
+        <label asp-for="ProcessorCounty"></label>
+        <input asp-for="ProcessorCounty"><br>
+
+        <label asp-for="ProcessorName"></label>
+        <input asp-for="ProcessorName"><br>
+
+        <label asp-for="ProcessorAddress"></label>
+        <input asp-for="ProcessorAddress"><br>
+
+        <label asp-for="ProcessorCity"></label>
+        <input asp-for="ProcessorCity"><br>
+
+        <label asp-for="ProcessorHours"></label>
+        <input asp-for="ProcessorHours"><br>
+
+        <label asp-for="LAT"></label>
+        <input asp-for="LAT"><br>
+
+        <label asp-for="LNG"></label>
+        <input asp-for="LNG"><br>
+
+        <input type="submit" value="SUBMIT PROCESSOR" class="btn btn-outline-dark">
+</form>
+</body>
+</html>

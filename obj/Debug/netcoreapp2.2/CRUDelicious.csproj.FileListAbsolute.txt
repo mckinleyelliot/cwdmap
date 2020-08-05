@@ -1,0 +1,70 @@
+/Users/elliotmckinley/Desktop/c#/cwdmap/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs
+/Users/elliotmckinley/Desktop/c#/cwdmap/obj/Debug/netcoreapp2.2/Razor/Views/Home/Privacy.g.cshtml.cs
+/Users/elliotmckinley/Desktop/c#/cwdmap/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Error.g.cshtml.cs
+/Users/elliotmckinley/Desktop/c#/cwdmap/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs
+/Users/elliotmckinley/Desktop/c#/cwdmap/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs
+/Users/elliotmckinley/Desktop/c#/cwdmap/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs
+/Users/elliotmckinley/Desktop/c#/cwdmap/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.g.cshtml.cs
+/Users/elliotmckinley/Desktop/c#/cwdmap/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.g.cshtml.cs
+/Users/elliotmckinley/Desktop/c#/cwdmap/obj/Debug/netcoreapp2.2/Razor/Views/Home/Add.g.cshtml.cs
+/Users/elliotmckinley/Desktop/c#/cwdmap/obj/Debug/netcoreapp2.2/Razor/Views/Home/View.g.cshtml.cs
+/Users/elliotmckinley/Desktop/c#/cwdmap/obj/Debug/netcoreapp2.2/Razor/Views/Home/Edit.g.cshtml.cs
+/Users/elliotmckinley/Desktop/c#/cwdmap/obj/Debug/netcoreapp2.2/CRUDelicious.csprojAssemblyReference.cache
+/Users/elliotmckinley/Desktop/c#/cwdmap/obj/Debug/netcoreapp2.2/CRUDelicious.csproj.CoreCompileInputs.cache
+/Users/elliotmckinley/Desktop/c#/cwdmap/obj/Debug/netcoreapp2.2/CRUDelicious.RazorAssemblyInfo.cache
+/Users/elliotmckinley/Desktop/c#/cwdmap/obj/Debug/netcoreapp2.2/CRUDelicious.RazorAssemblyInfo.cs
+/Users/elliotmckinley/Desktop/c#/cwdmap/obj/Debug/netcoreapp2.2/CRUDelicious.AssemblyInfoInputs.cache
+/Users/elliotmckinley/Desktop/c#/cwdmap/obj/Debug/netcoreapp2.2/CRUDelicious.AssemblyInfo.cs
+/Users/elliotmckinley/Desktop/c#/cwdmap/obj/Debug/netcoreapp2.2/CRUDelicious.TagHelpers.input.cache
+/Users/elliotmckinley/Desktop/c#/cwdmap/obj/Debug/netcoreapp2.2/CRUDelicious.TagHelpers.output.cache
+/Users/elliotmckinley/Desktop/c#/cwdmap/obj/Debug/netcoreapp2.2/CRUDelicious.RazorCoreGenerate.cache
+/Users/elliotmckinley/Desktop/c#/cwdmap/obj/Debug/netcoreapp2.2/Razor/Views/Home/New.g.cshtml.cs
+/Users/elliotmckinley/Desktop/c#/cwdmap/obj/Debug/netcoreapp2.2/CRUDelicious.RazorTargetAssemblyInfo.cache
+/Users/elliotmckinley/Desktop/c#/cwdmap/obj/Debug/netcoreapp2.2/CRUDelicious.RazorTargetAssemblyInfo.cs
+/Users/elliotmckinley/Desktop/c#/cwdmap/obj/Debug/netcoreapp2.2/CRUDelicious.dll
+/Users/elliotmckinley/Desktop/c#/cwdmap/obj/Debug/netcoreapp2.2/CRUDelicious.pdb
+/Users/elliotmckinley/Desktop/c#/cwdmap/bin/Debug/netcoreapp2.2/CRUDelicious.deps.json
+/Users/elliotmckinley/Desktop/c#/cwdmap/bin/Debug/netcoreapp2.2/CRUDelicious.runtimeconfig.json
+/Users/elliotmckinley/Desktop/c#/cwdmap/bin/Debug/netcoreapp2.2/CRUDelicious.runtimeconfig.dev.json
+/Users/elliotmckinley/Desktop/c#/cwdmap/bin/Debug/netcoreapp2.2/CRUDelicious.dll
+/Users/elliotmckinley/Desktop/c#/cwdmap/bin/Debug/netcoreapp2.2/CRUDelicious.pdb
+/Users/elliotmckinley/Desktop/c#/cwdmap/bin/Debug/netcoreapp2.2/CRUDelicious.Views.dll
+/Users/elliotmckinley/Desktop/c#/cwdmap/bin/Debug/netcoreapp2.2/CRUDelicious.Views.pdb
+/Users/elliotmckinley/Desktop/c#/cwdmap/obj/Debug/netcoreapp2.2/CRUDelicious.Views.pdb
+/Users/elliotmckinley/Desktop/c#/cwdmap/obj/Debug/netcoreapp2.2/CRUDelicious.csproj.CopyComplete
+/Users/elliotmckinley/Desktop/c#/cwdmap/obj/Debug/netcoreapp2.2/Razor/Views/Home/DishIndex.g.cshtml.cs
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cwdmap/bin/Debug/netcoreapp2.2/CRUDelicious.deps.json
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cwdmap/bin/Debug/netcoreapp2.2/CRUDelicious.runtimeconfig.json
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cwdmap/bin/Debug/netcoreapp2.2/CRUDelicious.runtimeconfig.dev.json
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cwdmap/bin/Debug/netcoreapp2.2/CRUDelicious.dll
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cwdmap/bin/Debug/netcoreapp2.2/CRUDelicious.pdb
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cwdmap/bin/Debug/netcoreapp2.2/CRUDelicious.Views.dll
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cwdmap/bin/Debug/netcoreapp2.2/CRUDelicious.Views.pdb
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cwdmap/obj/Debug/netcoreapp2.2/CRUDelicious.csprojAssemblyReference.cache
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cwdmap/obj/Debug/netcoreapp2.2/CRUDelicious.csproj.CoreCompileInputs.cache
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cwdmap/obj/Debug/netcoreapp2.2/CRUDelicious.RazorAssemblyInfo.cache
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cwdmap/obj/Debug/netcoreapp2.2/CRUDelicious.RazorAssemblyInfo.cs
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cwdmap/obj/Debug/netcoreapp2.2/CRUDelicious.AssemblyInfoInputs.cache
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cwdmap/obj/Debug/netcoreapp2.2/CRUDelicious.AssemblyInfo.cs
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cwdmap/obj/Debug/netcoreapp2.2/CRUDelicious.TagHelpers.input.cache
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cwdmap/obj/Debug/netcoreapp2.2/CRUDelicious.TagHelpers.output.cache
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cwdmap/obj/Debug/netcoreapp2.2/CRUDelicious.RazorCoreGenerate.cache
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cwdmap/obj/Debug/netcoreapp2.2/Razor/Views/Home/Add.g.cshtml.cs
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cwdmap/obj/Debug/netcoreapp2.2/Razor/Views/Home/DishIndex.g.cshtml.cs
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cwdmap/obj/Debug/netcoreapp2.2/Razor/Views/Home/Edit.g.cshtml.cs
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cwdmap/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cwdmap/obj/Debug/netcoreapp2.2/Razor/Views/Home/New.g.cshtml.cs
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cwdmap/obj/Debug/netcoreapp2.2/Razor/Views/Home/Privacy.g.cshtml.cs
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cwdmap/obj/Debug/netcoreapp2.2/Razor/Views/Home/View.g.cshtml.cs
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cwdmap/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Error.g.cshtml.cs
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cwdmap/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cwdmap/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cwdmap/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cwdmap/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.g.cshtml.cs
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cwdmap/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.g.cshtml.cs
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cwdmap/obj/Debug/netcoreapp2.2/CRUDelicious.RazorTargetAssemblyInfo.cache
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cwdmap/obj/Debug/netcoreapp2.2/CRUDelicious.RazorTargetAssemblyInfo.cs
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cwdmap/obj/Debug/netcoreapp2.2/CRUDelicious.Views.pdb
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cwdmap/obj/Debug/netcoreapp2.2/CRUDelicious.dll
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cwdmap/obj/Debug/netcoreapp2.2/CRUDelicious.pdb
+/Users/elliotmckinley/Desktop/coding/codingDojo/c#/GOOD EXAMPLES/cwdmap/obj/Debug/netcoreapp2.2/CRUDelicious.csproj.CopyComplete
